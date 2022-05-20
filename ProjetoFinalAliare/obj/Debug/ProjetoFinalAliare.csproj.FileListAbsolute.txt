@@ -82,3 +82,10 @@ C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\obj\D
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.csproj.CopyComplete
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.exe
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.pdb
+C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\bin\Debug\EntityFramework.dll
+C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\bin\Debug\EntityFramework.xml
+C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Users\marce\OneDrive\Marcelo\AliareEstagio\PFA_Teste\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Migrations.InitialCreate.resources

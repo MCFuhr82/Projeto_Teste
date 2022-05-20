@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ProjetoFinalAliare.Context;
+using ProjetoFinalAliare.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,27 +26,46 @@ namespace ProjetoFinalAliare
 
         private void Btn_Cadastrar_Click(object sender, EventArgs e)
         {
-            if (Pnl_Consultar.Visible == true)
-            {
-                Pnl_Consultar.Visible = false;
-            }
-                
-            Btn_Gravar.Enabled = true;
-            Btn_Editar.Enabled = false;
-            Btn_Deletar.Enabled = false;
-            Pnl_Cadastrar.Visible = true;
+            
+            
         }
 
         private void Btn_Consulta_Click(object sender, EventArgs e)
         {
-            if(Pnl_Cadastrar.Visible == true)
-            {
-                Pnl_Cadastrar.Visible = false;
-            }
-            Btn_Gravar.Enabled = false;
-            Btn_Editar.Enabled = true;
-            Btn_Deletar.Enabled = true;
-            Pnl_Consultar.Visible = true;
+           
         }
+        private void Btn_Gravar_Click(object sender, EventArgs e)
+        {
+            InserirAluno();
+        }
+
+        private void InserirAluno()
+        {
+            var nome = Txb_Cadastro_Nome.Text;
+            var cpf = Mtb_Cadastro_Cpf.Text;
+            var celular = Mtb_Cadastro_Celular.Text;
+            var email = Txb_Cadastro_Email.Text;
+            var endereco = Txb_Cadastro_Endereco.Text;
+            var cep = Txb_Cadastro_Cep.Text;
+            var complemento = Txb_Cadastro_Comp.Text;
+
+            using (var contexto = new Contexto())
+            {
+                var aluno = new Aluno(nome, cpf, endereco, cep, complemento, celular, email);
+                contexto.Aluno.Add(aluno);
+                contexto.SaveChanges();
+            }
+
+            MessageBox.Show("Aluno inserido com sucesso!");
+            
+        }
+
+        private void DeletarAluno()
+        {
+            //Todo
+        }
+
+        private void 
+
     }
 }
