@@ -6,17 +6,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoFinalAliare.Context
+namespace ProjetoFinalAliare
 {
-    public class Contexto : DbContext
+    public class Context : DbContext
     {
-        public Contexto() : base("PgFaculdade")
+        public Context() : base("PgFaculdade")
         {
+
         }
 
         public DbSet<Aluno> Aluno { get; set; }
         public DbSet<Curso> Curso { get; set; }
-
-        
     }
 }
