@@ -8,12 +8,13 @@ using System.Threading.Tasks;
 
 namespace ProjetoFinalAliare.Models
 {
-    [Table("Cursos", Schema = "public")]
+    [Table("Curso", Schema = "public")]
     public class Curso
     {
         [Key]
-        public int Id { get; private set; }
-        public string Nome { get; private set; }
+        public int Id { get; set; }
+        [Required]
+        public string Nome { get; set; }
         public Aluno Matricula { get; private set; }
 
         public Curso() { }
