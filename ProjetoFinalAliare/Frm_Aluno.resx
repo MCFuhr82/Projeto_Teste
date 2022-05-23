@@ -165,7 +165,11 @@
         XTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriXeW/h/sYH6AdFD6UeVjxS
         fNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2dmnafvvF05dOJZ+nPFmYKf5X+
         tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/MF72Rf3P4LeNt37vwd5MLWe+x7ys/
+<<<<<<< HEAD
         6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALDwAACw8BkvkDpQAAM+RJREFUeF7t3Qm4du1c
+=======
+        6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAALEQAACxEBf2RfkQAAM+RJREFUeF7t3Qm4du1c
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
         9/EyD09mQqaKVDKHiAoZojreF0mZpzK99UaUMkUyhYhMEYqM8SpRyvRIAyVEJU/mITLP8/v7tfa217P9
         7vvZw/Vf53mu/f0ex+eozrj3Wte9773/17rW8E1f+9rXAAAAgO7ERQAAAKC1uAgAAAC0FhcBAACA1uIi
         AAAA0FpcBAAAAFqLiwAAAEBrcREAAABoLS4CAAAArcVFAAAAoLW4CAAAALQWFwEAAIDW4iIAAADQWlwE
@@ -390,4 +394,10 @@
         XAQAAADa+to3/X/oHoby/Xb9wgAAAABJRU5ErkJggg==
 </value>
   </data>
+<<<<<<< HEAD
+=======
+  <metadata name="Matricula.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
 </root>

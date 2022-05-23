@@ -60,7 +60,10 @@ namespace ProjetoFinalAliare
             this.Lbl_Numero = new System.Windows.Forms.Label();
             this.Txb_Numero = new System.Windows.Forms.TextBox();
             this.Cbb_Estado = new System.Windows.Forms.ComboBox();
+<<<<<<< HEAD
             this.Btn_Consultar = new System.Windows.Forms.Button();
+=======
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -312,6 +315,7 @@ namespace ProjetoFinalAliare
             this.Cbb_Estado.Size = new System.Drawing.Size(59, 21);
             this.Cbb_Estado.TabIndex = 10;
             // 
+<<<<<<< HEAD
             // Btn_Consultar
             // 
             this.Btn_Consultar.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -324,12 +328,17 @@ namespace ProjetoFinalAliare
             this.Btn_Consultar.UseVisualStyleBackColor = false;
             this.Btn_Consultar.Click += new System.EventHandler(this.Btn_Consultar_Click);
             // 
+=======
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             // Frm_Cadastrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 449);
+<<<<<<< HEAD
             this.Controls.Add(this.Btn_Consultar);
+=======
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             this.Controls.Add(this.Cbb_Estado);
             this.Controls.Add(this.Txb_Numero);
             this.Controls.Add(this.Lbl_Numero);
@@ -389,6 +398,9 @@ namespace ProjetoFinalAliare
         private System.Windows.Forms.Label Lbl_Numero;
         private System.Windows.Forms.TextBox Txb_Numero;
         private System.Windows.Forms.ComboBox Cbb_Estado;
+<<<<<<< HEAD
         private System.Windows.Forms.Button Btn_Consultar;
+=======
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
     }
 }

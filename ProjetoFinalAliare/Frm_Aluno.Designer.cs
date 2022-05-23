@@ -35,10 +35,14 @@
             this.Btn_Editar = new System.Windows.Forms.Button();
             this.Btn_Deletar = new System.Windows.Forms.Button();
             this.Btn_Voltar = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.Lbl_Matricula = new System.Windows.Forms.Label();
             this.Lbl_Nome = new System.Windows.Forms.Label();
             this.Txb_Matricula = new System.Windows.Forms.TextBox();
             this.Txb_Nome = new System.Windows.Forms.TextBox();
+=======
+            this.Matricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -68,6 +72,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD
             this.dataGridView1.Location = new System.Drawing.Point(12, 135);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -75,12 +80,26 @@
             this.dataGridView1.Size = new System.Drawing.Size(688, 302);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+=======
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Matricula});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 84);
+            this.dataGridView1.MultiSelect = false;
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(688, 353);
+            this.dataGridView1.TabIndex = 6;
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             // 
             // Btn_Editar
             // 
             this.Btn_Editar.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Btn_Editar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.Btn_Editar.Location = new System.Drawing.Point(704, 135);
+=======
+            this.Btn_Editar.Location = new System.Drawing.Point(706, 119);
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             this.Btn_Editar.Name = "Btn_Editar";
             this.Btn_Editar.Size = new System.Drawing.Size(114, 34);
             this.Btn_Editar.TabIndex = 7;
@@ -91,9 +110,15 @@
             // 
             this.Btn_Deletar.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Btn_Deletar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.Btn_Deletar.Location = new System.Drawing.Point(704, 175);
             this.Btn_Deletar.Name = "Btn_Deletar";
             this.Btn_Deletar.Size = new System.Drawing.Size(114, 34);
+=======
+            this.Btn_Deletar.Location = new System.Drawing.Point(708, 159);
+            this.Btn_Deletar.Name = "Btn_Deletar";
+            this.Btn_Deletar.Size = new System.Drawing.Size(112, 34);
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             this.Btn_Deletar.TabIndex = 8;
             this.Btn_Deletar.Text = "Deletar";
             this.Btn_Deletar.UseVisualStyleBackColor = false;
@@ -111,6 +136,7 @@
             this.Btn_Voltar.UseVisualStyleBackColor = false;
             this.Btn_Voltar.Click += new System.EventHandler(this.Btn_Voltar_Click);
             // 
+<<<<<<< HEAD
             // Lbl_Matricula
             // 
             this.Lbl_Matricula.AutoSize = true;
@@ -142,16 +168,27 @@
             this.Txb_Nome.Name = "Txb_Nome";
             this.Txb_Nome.Size = new System.Drawing.Size(243, 20);
             this.Txb_Nome.TabIndex = 15;
+=======
+            // Matricula
+            // 
+            this.Matricula.HeaderText = "Matricula";
+            this.Matricula.Name = "Matricula";
+            this.Matricula.ReadOnly = true;
+            this.Matricula.Visible = false;
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             // 
             // Frm_Aluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 449);
+<<<<<<< HEAD
             this.Controls.Add(this.Txb_Nome);
             this.Controls.Add(this.Txb_Matricula);
             this.Controls.Add(this.Lbl_Nome);
             this.Controls.Add(this.Lbl_Matricula);
+=======
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
             this.Controls.Add(this.Btn_Voltar);
             this.Controls.Add(this.Btn_Deletar);
             this.Controls.Add(this.Btn_Editar);
@@ -163,7 +200,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+<<<<<<< HEAD
             this.PerformLayout();
+=======
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
 
         }
 
@@ -174,9 +214,13 @@
         private System.Windows.Forms.Button Btn_Editar;
         private System.Windows.Forms.Button Btn_Deletar;
         private System.Windows.Forms.Button Btn_Voltar;
+<<<<<<< HEAD
         private System.Windows.Forms.Label Lbl_Matricula;
         private System.Windows.Forms.Label Lbl_Nome;
         private System.Windows.Forms.TextBox Txb_Matricula;
         private System.Windows.Forms.TextBox Txb_Nome;
+=======
+        private System.Windows.Forms.DataGridViewTextBoxColumn Matricula;
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
     }
 }

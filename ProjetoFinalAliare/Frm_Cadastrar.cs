@@ -56,11 +56,14 @@ namespace ProjetoFinalAliare
                 e.Handled = true;
             }
         }
+<<<<<<< HEAD
 
         private void Btn_Consultar_Click(object sender, EventArgs e)
         {
             var form = new Frm_Aluno();
             form.ShowDialog();
         }
+=======
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
     }
 }

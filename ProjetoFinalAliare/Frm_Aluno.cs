@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using ProjetoFinalAliare.Models;
 using System;
+=======
+﻿using System;
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,7 +50,11 @@ namespace ProjetoFinalAliare
                 var alunos = context.Aluno.ToList();
                 foreach (var aluno in alunos)
                 {
+<<<<<<< HEAD
                     if (aluno.Matricula == int.Parse(Txb_Matricula.Text))
+=======
+                    if (aluno.Matricula == 1)
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
                     {
                         context.Aluno.Remove(aluno);
                         context.SaveChanges();
@@ -55,6 +63,7 @@ namespace ProjetoFinalAliare
             }
             
         }
+<<<<<<< HEAD
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -70,5 +79,7 @@ namespace ProjetoFinalAliare
                 MessageBox.Show("Ocorreu um erro " + ex.Message + " - " + ex.Source);
             }
         }
+=======
+>>>>>>> 72afa90693bfaa6071183f5e2a401c319258bf36
     }
 }
